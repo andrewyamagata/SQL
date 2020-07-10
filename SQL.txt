@@ -1,0 +1,8 @@
+CREATE DATABASE db_Library
+ON PRIMARY (
+NAME = db_Library,
+FILENAME = 'C:\Users\Andrew\Documents\GitHub\db_Library.MDF',
+SIZE = 6 MB,
+MAXSIZE = 15 MB,
+FILEGROWTH = 10%
+)
