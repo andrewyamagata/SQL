@@ -36,3 +36,34 @@ db_Library
 	>>Diagramas de banco de Dados
 				>>Novo Diagrama de Banco de Dados
 //*Criar os relacionamentos entre as tabelas
+
+USE db_Library
+
+CREATE TABLE tbl_teste_identidade
+(ID_Teste SMALLINT PRIMARY KEY IDENTITY,
+valor SMALLINT NOT NULL)
+
+USE db_Library
+INSERT INTO tbl_teste_identidade (valor) VALUES (10)
+INSERT INTO tbl_teste_identidade (valor) VALUES (20)
+INSERT INTO tbl_teste_identidade (valor) VALUES (30)
+INSERT INTO tbl_teste_identidade (valor) VALUES (40)
+
+USE db_Library
+SELECT * FROM tbl_teste_identidade
+
+USE db_Library
+ALTER TABLE tbl_Livro
+DROP COLUMN ID_Autor
+
+USE db_Library
+ALTER TABLE tbl_Livro
+ADD ID_Autor SMALLINT NOT NULL
+CONSTRAINT fk_ID_Autor FOREIGN KEY (ID_Autor)
+REFERENCES tbl_Autores
+
+USE db_Library
+ALTER TABLE tbl_Livro
+ADD ID_Editora SMALLINT NOT NULL
+CONSTRAINT fk_ID_Editora FOREIGN KEY (ID_Editora)
+REFERENCES tbl_Editoras
