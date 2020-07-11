@@ -67,3 +67,11 @@ ALTER TABLE tbl_Livro
 ADD ID_Editora SMALLINT NOT NULL
 CONSTRAINT fk_ID_Editora FOREIGN KEY (ID_Editora)
 REFERENCES tbl_Editoras
+
+USE db_Library
+ALTER TABLE tbl_Livro
+ALTER COLUMN ID_Autor SMALLINT
+
+USE db_Library
+DROP TABLE tbl_teste_identidade
+//*apagar a tabela inteira, se a mesma tiver relacionamento, resolver primeiro
