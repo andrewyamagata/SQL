@@ -75,3 +75,11 @@ ALTER COLUMN ID_Autor SMALLINT
 USE db_Library
 DROP TABLE tbl_teste_identidade
 //*apagar a tabela inteira, se a mesma tiver relacionamento, resolver primeiro
+
+
+USE db_Library
+
+INSERT INTO tbl_Autores (ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (1,'TORU', 'FUJISAWA')
+INSERT INTO tbl_Autores (ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (2,'SATORU', 'NODA')
+INSERT INTO tbl_Autores	(ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (3,'KOYOHARU', 'GOTOUGE')
+INSERT INTO tbl_Autores (ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (4,'KAZUE', 'KATO')
