@@ -50,7 +50,7 @@ INSERT INTO tbl_teste_identidade (valor) VALUES (30)
 INSERT INTO tbl_teste_identidade (valor) VALUES (40)
 
 USE db_Library
-SELECT * FROM tbl_teste_identidade
+SELECT * FROM tbl_teste_identidade //* Verificar os valores da tabela
 
 USE db_Library
 ALTER TABLE tbl_Livro
