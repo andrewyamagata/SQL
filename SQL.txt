@@ -83,3 +83,10 @@ INSERT INTO tbl_Autores (ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (1,'TORU', 
 INSERT INTO tbl_Autores (ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (2,'SATORU', 'NODA')
 INSERT INTO tbl_Autores	(ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (3,'KOYOHARU', 'GOTOUGE')
 INSERT INTO tbl_Autores (ID_Autor,Nome_Autor,Sobrenome_Autor) VALUES (4,'KAZUE', 'KATO')
+
+USE db_Library
+
+INSERT INTO tbl_Editoras (Nome_Editora) VALUES ('PANINI COMICS')
+INSERT INTO tbl_Editoras (Nome_Editora) VALUES ('JBC')
+INSERT INTO tbl_Editoras (Nome_Editora) VALUES ('NEW POP')
+//* ID EDITORA - AUTO INCREMENTO
