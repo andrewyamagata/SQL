@@ -101,5 +101,33 @@ VALUES ('GOLDEN KAMUY 01', '978-85-426-2020-7', '20190501', 24.90, 2, 1) //*DATA
 INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
 VALUES ('GOLDEN KAMUY 02', '978-85-426-2254-6', '20190701', 24.90, 2, 1)
 
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('GOLDEN KAMUY 03', '978-85-426-2408-3', '20190901', 24.90, 2, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('GOLDEN KAMUY 04', '978-85-426-2590-5', '20191101', 24.90, 2, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('GOLDEN KAMUY 05', '978-85-426-2778-7', '20200101', 24.90, 2, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('DEMON SLAYER 01', '978-85-426-2928-6', '20200301', 24.90, 3, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('DEMON SLAYER 02', '978-85-426-2988-0', '20200301', 24.90, 3, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('DEMON SLAYER 03', '978-65-5512-027-1', '20200401', 24.90, 3, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('DEMON SLAYER 04', '978-65-5512-030-1', '20200501', 24.90, 3, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('DEMON SLAYER 05', '978-65-5512-112-4', '20200601', 24.90, 3, 1)
+
+INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) 
+VALUES ('DEMON SLAYER 06', '978-65-5512-211-4', '20200701', 24.90, 3, 1)
+
+
 SELECT COUNT(*) FROM TABELA //*INFORMAR QUATIDADE DE REGISTRO
 TRUNCATE TABLE //*LIMPAR REGISTRO
