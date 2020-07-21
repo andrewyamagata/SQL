@@ -89,4 +89,4 @@ USE db_Library
 INSERT INTO tbl_Editoras (Nome_Editora) VALUES ('PANINI COMICS')
 INSERT INTO tbl_Editoras (Nome_Editora) VALUES ('JBC')
 INSERT INTO tbl_Editoras (Nome_Editora) VALUES ('NEW POP')
-//* ID EDITORA - AUTO INCREMENTO
+//* ID EDITORA - AUTO INCREMENTO = (ID_Editora SMALLINT PRIMARY KEY IDENTITY)
